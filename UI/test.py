@@ -52,7 +52,7 @@ class Ui_MainWindow(object):
         self.label = QtWidgets.QLabel(self.centralwidget)
         self.label.setGeometry(QtCore.QRect(220, 260, 111, 51))
         self.label.setStyleSheet("border-image:url(C:/Users/DELL/Pictures/Saved Pictures/1.jpg);")
-        self.label.setObjectName("label")
+        self.label.setObjectName("label_test")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 23))
