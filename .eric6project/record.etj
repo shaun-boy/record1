@@ -1,0 +1,62 @@
+{
+  "header": {
+    "comment": "eric tasks file for project record",
+    "warning": "This file was generated automatically, do not edit.",
+    "saved": "2021-10-25, 08:28:15"
+  },
+  "ProjectScanFilter": "",
+  "Tasks": [
+    {
+      "summary": "WARNING: Any manual changes made to this file will be lost when pyuic5 is",
+      "description": "",
+      "priority": 1,
+      "lineno": 7,
+      "completed": false,
+      "created": 1635121692.242102,
+      "type": 2,
+      "uid": "{8fb58646-3172-490d-b16e-2512779ba50f}",
+      "parent_uid": "",
+      "expanded": false,
+      "filename": "D:\\Program Files\\JetBrains\\program\\accountbook\\UI\\Ui_find.py"
+    },
+    {
+      "summary": "WARNING: Any manual changes made to this file will be lost when pyuic5 is",
+      "description": "",
+      "priority": 1,
+      "lineno": 7,
+      "completed": false,
+      "created": 1635121692.252102,
+      "type": 2,
+      "uid": "{0ebb09e9-ca75-463a-b086-b8123072ede8}",
+      "parent_uid": "",
+      "expanded": false,
+      "filename": "D:\\Program Files\\JetBrains\\program\\accountbook\\UI\\Ui_Login.py"
+    },
+    {
+      "summary": "WARNING: Any manual changes made to this file will be lost when pyuic5 is",
+      "description": "",
+      "priority": 1,
+      "lineno": 7,
+      "completed": false,
+      "created": 1635121692.2621021,
+      "type": 2,
+      "uid": "{83ca042b-c1f5-4ad7-9260-22da6cf6e117}",
+      "parent_uid": "",
+      "expanded": false,
+      "filename": "D:\\Program Files\\JetBrains\\program\\accountbook\\UI\\Ui_mainwindow.py"
+    },
+    {
+      "summary": "TODO: not implemented yet",
+      "description": "",
+      "priority": 1,
+      "lineno": 42,
+      "completed": false,
+      "created": 1635121692.2721019,
+      "type": 1,
+      "uid": "{840cbd3d-c5bf-4974-81bf-98f6f070c727}",
+      "parent_uid": "",
+      "expanded": false,
+      "filename": "D:\\Program Files\\JetBrains\\program\\accountbook\\UI\\mainwindow.py"
+    }
+  ]
+}
