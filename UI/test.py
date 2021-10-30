@@ -15,6 +15,21 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(800, 600)
+        MainWindow.setStyleSheet("QWidget{\n"
+"    color:#232C51;\n"
+"    background:white;\n"
+"    border-top:1px solid darkGray;\n"
+"    border-bottom:1px solid darkGray;\n"
+"    border-right:1px solid darkGray;\n"
+"    border-top-right-radius:10px;\n"
+"    border-bottom-right-radius:10px;\n"
+"  }\n"
+"  QLabel{\n"
+"    border:none;\n"
+"    font-size:16px;\n"
+"    font-weight:700;\n"
+"    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n"
+"  }")
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.pushButton = QtWidgets.QPushButton(self.centralwidget)
@@ -34,6 +49,10 @@ class Ui_MainWindow(object):
 "    background:rgb(255, 255, 255, 30);\n"
 "}")
         self.pushButton.setObjectName("pushButton")
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(220, 260, 111, 51))
+        self.label.setStyleSheet("border-image:url(C:/Users/DELL/Pictures/Saved Pictures/1.jpg);")
+        self.label.setObjectName("label")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 23))
@@ -56,5 +75,6 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.pushButton.setText(_translate("MainWindow", "PushButton"))
+        self.label.setText(_translate("MainWindow", "TextLabel"))
         self.menufil.setTitle(_translate("MainWindow", "fil"))
         self.actionopen.setText(_translate("MainWindow", "open"))

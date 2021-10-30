@@ -13,6 +13,23 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{
+    color:#232C51;
+    background:white;
+    border-top:1px solid darkGray;
+    border-bottom:1px solid darkGray;
+    border-right:1px solid darkGray;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+  }
+  QLabel{
+    border:none;
+    font-size:16px;
+    font-weight:700;
+    font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;
+  }</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
@@ -41,6 +58,22 @@ QPushButton:pressed{
     </property>
     <property name="text">
      <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>260</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image:url(C:/Users/DELL/Pictures/Saved Pictures/1.jpg);</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
     </property>
    </widget>
   </widget>
